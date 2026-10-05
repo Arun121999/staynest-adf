@@ -1,0 +1,15 @@
+{
+	"name": "adf-staynest-121999",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "41652002-6cde-4afe-8d73-ffdc7c26ca93",
+		"tenantId": "4334b083-cb96-441a-ae4a-8d30d2388536"
+	}
+}
