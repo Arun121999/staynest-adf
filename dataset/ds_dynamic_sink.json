@@ -1,0 +1,29 @@
+{
+	"name": "ds_dynamic_sink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_adls_staynest",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"p_fileName": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "@dataset().p_fileName",
+				"folderPath": "bronze",
+				"fileSystem": "staynest"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
