@@ -28,4 +28,4 @@ Get Metadata returned three files: `bookings.csv`, `customers.csv` and `hotels.c
 
 I ran both pipelines with Debug and all activities succeeded. The three files are now in the bronze folder.
 
-![Bronze folder](images/bronze_png.png)
+![Bronze folder](images/bronze.png)
